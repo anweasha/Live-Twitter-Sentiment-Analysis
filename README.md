@@ -1,6 +1,6 @@
 # Live Twitter Sentiment Analysis
 
-Get the sentiment labels of live tweets!
+### Get the sentiment labels of live tweets!
 
 
 [Try the web application here.](https://share.streamlit.io/anweasha/live-twitter-sentiment-analysis/main/twitter_analysis.py)
