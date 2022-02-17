@@ -19,7 +19,7 @@ st.markdown('Get the sentiment labels of live tweets!')
 
 def run():
   with st.form(key='Enter name'):
-    search_words = st.text_input('Enter the name for which you want to know the sentiment')
+    search_words = st.text_input('Enter the topic for which you want to know the sentiment')
     no_of_tweets = st.number_input('Enter the number of latest tweets for which you want to know the sentiment (maximum 50 tweets)', 0,50,10)
     submit_button = st.form_submit_button(label='Submit')
   if submit_button:
