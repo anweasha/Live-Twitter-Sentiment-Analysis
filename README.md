@@ -15,9 +15,9 @@
 > **WEB APPLICATION -** [Live Twitter Sentiment Analysis](https://share.streamlit.io/anweasha/live-twitter-sentiment-analysis/main/twitter_analysis.py)
 <br>
 
-<img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-1.png" width=500><br>
-<img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-2.png" width=400><br>
-<img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-3.png" width=400><br>
+<img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-1.png" width=700><br>
+<img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-2.png" width=600><br>
+<img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-3.png" width=600><br>
 
 
 ## Tech Stacks Used:
