@@ -15,7 +15,7 @@ api = tw.API(auth, wait_on_rate_limit=True)
 classifier = pipeline('sentiment-analysis')
 
 st.title('Live Twitter Sentiment Analysis')
-st.markdown('This app uses Tweepy to get tweets from Twitter based on the input Name/phrase. It then processes the tweets through HuggingFace transformers pipeline function for sentiment analysis. The resulting sentiments and corresponding tweets are then put in a dataframe for display which is what you see as result.')
+st.markdown('This app uses Tweepy to get tweets from Twitter based on the input name/phrase. It then processes the tweets through HuggingFace transformers pipeline function for sentiment analysis. The resulting sentiments and corresponding tweets are then put in a dataframe for display which is what you see as result.')
 
 def run():
   with st.form(key='Enter name'):
@@ -27,7 +27,7 @@ def run():
     tweet_list = [i.text for i in tweets]
     output = [i for i in classifier(tweet_list)]
     labels =[output[i]['label'] for i in range(len(output))]
-    df = pd.DataFrame(list(zip(tweet_list, labels)),columns =['Latest '+str(no_of_tweets)+'Tweets'+' on '+search_words, 'sentiment'])
+    df = pd.DataFrame(list(zip(tweet_list, labels)),columns =['Latest '+str(no_of_tweets)+' tweets'+' on '+search_words, 'Sentiment'])
     st.write(df)
  
 
