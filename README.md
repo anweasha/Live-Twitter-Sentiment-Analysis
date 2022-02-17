@@ -24,5 +24,4 @@
 - [Tweepy](https://docs.tweepy.org/en/stable/)
 - [Hugging Face](https://huggingface.co)
 - Transformers
-- NLP
 - Twitter API
