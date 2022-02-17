@@ -17,7 +17,7 @@
 
 <img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-1.png" width=700><br>
 <img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-2.png" width=600><br>
-<img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-3.png" width=600><br>
+<br><img src="https://github.com/anweasha/Live-Twitter-Sentiment-Analysis/blob/main/images/twitter%20sentiment%20analysis-3.png" width=600><br>
 
 
 ## Tech Stacks Used:
@@ -25,3 +25,4 @@
 - [Hugging Face](https://huggingface.co)
 - Transformers
 - Twitter API
+- Python
